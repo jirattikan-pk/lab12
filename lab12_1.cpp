@@ -11,9 +11,8 @@ int main(){
 }
 
 int fibonacci(int x){
-    int y=0;
-    if(x<0) return y;
-    else if(x==0) return 0;
+    int y;
+    if(x==0) return 0;
     else if (x==1) return 1;
     else {
         y = fibonacci(x-1) + fibonacci(x-2);
@@ -21,3 +20,4 @@ int fibonacci(int x){
     }
     
 }
+
